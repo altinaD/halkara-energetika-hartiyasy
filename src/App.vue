@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div class="app">
         <div class="full top-images"></div>
         <div class="container">
             <div class="content">
@@ -60,8 +60,8 @@ html {
     margin: 0;
     box-sizing: border-box;
 }
-#app {
-    overflow: hidden;
+.app {
+    overflow-x: hidden;
 }
 .container {
     width: 1500px;
